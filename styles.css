@@ -1,6 +1,6 @@
 /*  your css code here. If applicable */
 .grid-item{
-	background-color:rgb(211, 211, 211);
+	background-color:lightgray;
 	height:150px;
 	width:200px;
 	border-radius:5px;
@@ -10,14 +10,9 @@
 	justify-content:center;
 }
 .grid-container{
-/* 	grid-gap:10px 10px;
-	display:grid;
-	justify-content:space-between;
-	flex-wrap:wrap; */
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 	display: grid;
-    grid-template-columns: repeat(auto-fit, 100px);
     grid-gap:10px 10px;
     justify-content: center;
-/*     width: 90%; */
-/*     margin: 0 auto; */
 }
+@media screen and ()
